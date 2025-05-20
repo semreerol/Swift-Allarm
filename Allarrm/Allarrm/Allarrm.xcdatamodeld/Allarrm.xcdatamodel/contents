@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="24.4.0" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AlarmEntity" representedClassName=".AlarmEntity" syncable="YES">
+        <attribute name="aktif" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="erteleme" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="etiket" optional="YES" attributeType="String"/>
+        <attribute name="gunler" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="saat" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model> 
